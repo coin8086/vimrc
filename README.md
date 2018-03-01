@@ -13,7 +13,8 @@
 * 多文档编辑、切换
 * 在指定目录中查找关键字
 * 一键进入／退出shell
-* 集成Git命令：diff，blame和log
+* 集成Git命令：grep，diff，blame和log
+* 支持Pathogen VIM插件系统
 * ……
 
 具体如下：
@@ -39,8 +40,8 @@
 * F3打开搜索结果小窗户（如果还没有打开或者被关闭了的话）
 * ＋／－增加或者减小搜索结果窗的大小
 * F4关闭搜索结果窗
-* F5对代码启用语法折叠（syntax folding)
-* F6保存当前打开文件列表到~/.vim_recent_files（需要回车确认），这样下次就可以使用 vi -S ~/.vim_recent_files 命令打开这些文件
+* F5保存当前打开文件列表到~/.vim_recent_files（需要回车确认），这样下次就可以使用 vi -S ~/.vim_recent_files 命令打开这些文件
+* F6 Git grep当前word，即：在当前的Git Repo里查找，不会查找非Git目录，如项目的日志和临时目录等
 * F7 Git diff当前文件
 * F8 Git blame当前文件
 * F9 Git log当前文件
